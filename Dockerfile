@@ -2,6 +2,6 @@ FROM gitpod/workspace-full:latest
 
 USER root
 
-RUN chmod 777 /usr
+RUN chmod 777 /
 
 USER root
