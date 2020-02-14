@@ -6,4 +6,6 @@ RUN apt-get update && apt-get install -y build-essential libsdl2-dev libbz2-dev 
 
 ADD https://github.com/timvisee/ffsend/releases/download/v0.2.58/ffsend-v0.2.58-linux-x64-static /bin/ffsend
 
+RUN chmod +x /bin/ffsend
+
 USER root
